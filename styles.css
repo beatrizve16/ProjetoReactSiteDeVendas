@@ -423,9 +423,12 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-family: "Yellowtail", cursive;
+    font-weight: 300;
+    color: #A48885;
 }
 
 footer p {
     margin: 0;
-    font-size: 14.4px;
+    font-size: 17px;
 }
