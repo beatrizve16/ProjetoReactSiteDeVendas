@@ -126,6 +126,7 @@ main {
 
 }
 
+
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -453,7 +454,23 @@ footer p {
 }
 
 
-
+@keyframes scale-a-lil {
+    from {
+      transform: scale(0.5); /* Use 'transform' instead of 'scale' */
+    }
+    to {
+      transform: scale(1); /* Scale to full size */
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .book-container img {
+      animation: scale-a-lil 1s linear both;
+      animation-timeline: view();
+      animation-range: 25vh 75vh;
+    }
+  }
+  
 
 @media only screen and (max-width: 767px) {
     header {
