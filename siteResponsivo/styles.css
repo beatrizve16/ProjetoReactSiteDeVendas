@@ -480,7 +480,7 @@ footer p {
         color: white;
         font-family: "Rowdies", sans-serif;
         font-weight: 500;
-        font-size: 18px; /* Reduced size for smaller screens */
+        font-size: 18px; 
     }
     
     .header-content nav a {
