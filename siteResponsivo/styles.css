@@ -456,10 +456,10 @@ footer p {
 
 @keyframes scale-a-lil {
     from {
-      transform: scale(0.5); /* Use 'transform' instead of 'scale' */
+      transform: scale(0.5); 
     }
     to {
-      transform: scale(1); /* Scale to full size */
+      transform: scale(1); 
     }
   }
   
