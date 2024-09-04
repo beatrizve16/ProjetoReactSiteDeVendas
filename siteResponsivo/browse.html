@@ -9,28 +9,34 @@
 <body>
     <header>
         <div class="header-content">
+            <!-- Logo -->
             <a href="index.html">
                 <img src="img/logo.png" alt="Bea's Little Library" class="logo">
             </a>
-              
-            <nav id="hheader-button"> 
+    
+            <!-- Header title -->
+            <a href="index.html">
+                <h1>bea's little library</h1>
+            </a>
+    
+            <!-- Navigation for larger screens -->
+            <nav>
                 <a href="browse.html" class="btn2">Browse</a>
+                <a href="cart.html" class="btn2">Your Cart</a>
             </nav>
-            
-            <div class="headerTitle">
-                <nav>
-                    <a href="cart.html" class="btn2">Your Cart</a>
-                </nav>
-                <a href="index.html">
-                    <h1>bea's little library</h1>
+    
+            <!-- Icons for smaller screens (media query) -->
+            <div id="hheader-button">
+                <a href="browse.html">
+                    <img id="icon-browse" src="img/searchbutton.png" alt="Browse Icon">
                 </a>
-                
-                <nav id="hhheader-title"> 
-                    <a href="browse.html" class="btn2">Browse</a>
-                </nav>
+                <a href="cart.html">
+                    <img id="icon-cart" src="img/cartbutton.png" alt="Cart Icon">
+                </a>
             </div>
         </div>
     </header>
+    
     <main class="books">
         <h1><span id="ourNormal">our</span> <span id="booksCursiva">books</span></h1>
         <div class="search-bar">
