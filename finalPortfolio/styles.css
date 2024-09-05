@@ -61,7 +61,6 @@ nav a:hover {
 
 .container {
     width: 80%;
-    max-width: 1200px;
     margin: 64px auto;
     padding: 32px;
     background-color: #22202017;
@@ -171,6 +170,9 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
 }
 
 .programming-item {

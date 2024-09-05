@@ -452,24 +452,6 @@ footer p {
     margin: 0;
     font-size: 17px;
 }
-
-
-@keyframes scale-a-lil {
-    from {
-      transform: scale(0.5); 
-    }
-    to {
-      transform: scale(1); 
-    }
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .book-container img {
-      animation: scale-a-lil 1s linear both;
-      animation-timeline: view();
-      animation-range: 25vh 75vh;
-    }
-  }
   
 
 @media only screen and (max-width: 767px) {
